@@ -1,6 +1,5 @@
-from sys import argv
-
-script, pops, time = argv
+pops = raw_input("How many pops? ")
+time = raw_input("And how much time? ")
 
 pops_float = float(pops)
 time_float = float(time)
