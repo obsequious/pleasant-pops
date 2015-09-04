@@ -1,11 +1,11 @@
 pops = raw_input("How many pops? ")
 time = raw_input("And how much time? ")
 
-pops_float = float(pops)
-time_float = float(time)
+pops = float(pops)
+time = float(time)
 
-pop_cost = pops_float * 2.50
-time_cost = time_float * 75.0
+pop_cost = pops * 2.50
+time_cost = time * 75.0
 dc_sales_tax = pop_cost * .1
 
 print "Pop cost (out of state): %.2f" % pop_cost
